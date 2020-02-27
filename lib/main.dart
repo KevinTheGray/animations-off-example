@@ -23,7 +23,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
-  final _duration = Duration(milliseconds: 5000);
+  final _duration = Duration(milliseconds: 10000);
   AnimationController _animationController;
 
   DateTime _startTime;
